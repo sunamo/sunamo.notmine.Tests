@@ -44,7 +44,7 @@ namespace PathEditor {
         
         #line 16 "..\..\MainWindow1.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal PathEditor.Views.UserControls.AutoCompleteTextBox txt;
+        public PathEditor.Views.UserControls.AutoCompleteTextBox txt;
         
         #line default
         #line hidden
