@@ -29,7 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Utf8Json\Utf8Json.csproj" />
     <ProjectReference Include="..\..\sunamo.notmine\Utf8Json\Utf8Json.csproj" />
   </ItemGroup>
 
