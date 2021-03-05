@@ -41,7 +41,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuTestingSupport", "FubuT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuCore", "..\sunamo.notmine\FubuCore\FubuCore.csproj", "{342B987C-E0A4-4129-958D-8E08084E8A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuCore.Testing.MSTest", "FubuCore.Testing.MSTest\FubuCore.Testing.MSTest.csproj", "{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore.Testing.MSTest", "FubuCore.Testing.MSTest\FubuCore.Testing.MSTest.csproj", "{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.Tests.Net45", "HtmlAgilityPack.Tests.Net45\HtmlAgilityPack.Tests.Net45.csproj", "{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -170,6 +172,12 @@ Global
 		{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}.DumpAsm|Any CPU.Build.0 = Debug|Any CPU
 		{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.DumpAsm|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.DumpAsm|Any CPU.Build.0 = Debug|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
