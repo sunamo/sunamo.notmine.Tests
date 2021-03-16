@@ -14,7 +14,7 @@ public class StringExtensionsTests
     public void PathRelativeToTest()
     {
         var a1 = @"e:\Documents\Visual Studio 2017\Projects\sunamo\sunamo\sunamo.csproj";
-        var a2 = @"d:\Documents\Visual Studio 2017\Projects\EverythingClient";
+        var a2 = @"e:\Documents\Visual Studio 2017\Projects\EverythingClient";
 
         var result = a1.PathRelativeTo(a2);
         Debugger.Break();

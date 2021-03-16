@@ -31,7 +31,7 @@ namespace PathEditor
 
         private void MainWindow1_Loaded(object sender, RoutedEventArgs e)
         {
-            txt.Text = @"d:\Documents\Visual Studio 2017\Projects\sunamo.cz\";
+            txt.Text = @"e:\Documents\Visual Studio 2017\Projects\sunamo.cz\";
         }
     }
 }
