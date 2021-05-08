@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using FubuCore.Binding;
 using FubuCore.Configuration;
 using FubuCore.Util;

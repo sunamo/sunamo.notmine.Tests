@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using FubuCore.Binding;
 using FubuCore.Descriptions;
 using FubuCore.Testing.Binding;

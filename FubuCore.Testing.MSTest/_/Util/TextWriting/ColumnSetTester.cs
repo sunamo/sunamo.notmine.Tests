@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using FubuCore.Util.TextWriting;
 using NUnit.Framework;
 using System.Linq;

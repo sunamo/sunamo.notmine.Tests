@@ -1,4 +1,4 @@
-using FubuCore.Csv;
+﻿using FubuCore.Csv;
 using FubuCore.Reflection;
 using FubuTestingSupport;
 using NUnit.Framework;

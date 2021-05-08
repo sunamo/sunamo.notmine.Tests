@@ -1,4 +1,4 @@
-namespace FubuCore.Testing.Csv
+﻿namespace FubuCore.Testing.Csv
 {
     public class TestCsvObject
     {

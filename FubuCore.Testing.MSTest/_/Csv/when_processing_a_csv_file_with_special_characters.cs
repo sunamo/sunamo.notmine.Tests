@@ -1,4 +1,4 @@
-namespace FubuCore.Testing.Csv
+﻿namespace FubuCore.Testing.Csv
 {
     public class when_processing_a_csv_file_with_a_comma : SpecialCharacterHarness
     {

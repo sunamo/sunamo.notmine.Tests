@@ -1,4 +1,4 @@
-using FubuCore.Formatting;
+﻿using FubuCore.Formatting;
 using FubuCore.Reflection;
 using FubuCore.Testing.Conversion;
 using FubuCore.Testing.Reflection.Expressions;

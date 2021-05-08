@@ -1,4 +1,4 @@
-using FubuCore.CommandLine;
+﻿using FubuCore.CommandLine;
 using NUnit.Framework;
 
 namespace FubuCore.Testing.CommandLine

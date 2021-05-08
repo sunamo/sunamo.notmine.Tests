@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using FubuCore.Conversion;
 using NUnit.Framework;
 using FubuTestingSupport;

@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using FubuCore.CommandLine;
 using FubuTestingSupport;
 using NUnit.Framework;

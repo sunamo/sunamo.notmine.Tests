@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using FubuCore.Binding;
 using FubuCore.Binding.InMemory;
 using FubuTestingSupport;
