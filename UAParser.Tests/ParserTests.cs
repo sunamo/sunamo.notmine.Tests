@@ -17,10 +17,10 @@ namespace UAParser.Tests
 
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine( RH.DumpAsString("Device", p.Device));
-            sb.AppendLine(RH.DumpAsString("OS", p.OS));
-            sb.AppendLine(RH.DumpAsString("UA", p.UA));
-            sb.AppendLine(RH.DumpAsString("p", p));
+            sb.AppendLine( RH.DumpAsString(new DumpAsStringArgs{ name = "Device", o = p.Device }));
+            sb.AppendLine(RH.DumpAsString(new DumpAsStringArgs { name = "OS", o = p.OS }));
+            sb.AppendLine(RH.DumpAsString(new DumpAsStringArgs { name = "UA", o = p.UA }));
+            sb.AppendLine(RH.DumpAsString(new DumpAsStringArgs { name = "p", o = p }));
             
             
             Debug.WriteLine(sb.ToString());

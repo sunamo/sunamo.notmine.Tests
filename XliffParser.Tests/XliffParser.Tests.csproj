@@ -5,12 +5,12 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
-    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
-    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"></PackageReference>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0"></PackageReference>
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0"></PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.0.1"></PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamo\sunamo\sunamo.csproj" />
+    <ProjectReference Include="..\..\..\sunamo\sunamo\sunamo.csproj"></ProjectReference>
   </ItemGroup>
 </Project>

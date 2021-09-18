@@ -1,25 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
-    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
-    <PackageReference Include="coverlet.collector" Version="1.2.0" />
-    <PackageReference Include="NUnit" Version="3.13.0" />
-    <PackageReference Include="RhinoMocks" Version="3.6.1" />
-    <PackageReference Include="structuremap.automocking" Version="4.0.0.315" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"></PackageReference>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0"></PackageReference>
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0"></PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.2.0"></PackageReference>
+    <PackageReference Include="NUnit" Version="3.13.0"></PackageReference>
+    <PackageReference Include="RhinoMocks" Version="3.6.1"></PackageReference>
+    <PackageReference Include="structuremap.automocking" Version="4.0.0.315"></PackageReference>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0"></PackageReference>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamo.notmine\FubuCore\FubuCore.csproj" />
-    <ProjectReference Include="..\FubuTestingSupport\FubuTestingSupport.csproj" />
+    <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj"></ProjectReference>
+    <ProjectReference Include="..\FubuTestingSupport\FubuTestingSupport.csproj"></ProjectReference>
   </ItemGroup>
-
 </Project>
