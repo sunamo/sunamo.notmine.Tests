@@ -2,19 +2,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunamo.notmine.Tests", "sunamo.notmine.Tests\sunamo.notmine.Tests.csproj", "{8352BE14-3B07-4D0D-B5D3-B1C5965505CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo.notmine.Tests", "sunamo.notmine.Tests\sunamo.notmine.Tests.csproj", "{8352BE14-3B07-4D0D-B5D3-B1C5965505CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XliffParser.Tests", "XliffParser.Tests\XliffParser.Tests.csproj", "{E6039432-348D-4F51-8EE5-BB7CA92A7409}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoExceptions", "..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{F3F6F3CA-A5F5-4994-9666-3FED63614B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunamo", "..\..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo", "..\..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTextBox.Tests", "SearchTextBox.Tests\SearchTextBox.Tests.csproj", "{7B0FF6A2-6A38-4E87-BFC2-3C98DCD46A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchTextBox.Tests", "SearchTextBox.Tests\SearchTextBox.Tests.csproj", "{7B0FF6A2-6A38-4E87-BFC2-3C98DCD46A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTextBox", "..\..\sunamo.notmine.web\SearchTextBox\SearchTextBox.csproj", "{A3082956-9EE4-4B35-9B4E-B07D0C4C8B56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchTextBox", "..\..\sunamo.notmine.web\SearchTextBox\SearchTextBox.csproj", "{A3082956-9EE4-4B35-9B4E-B07D0C4C8B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xlf", "..\..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xlf", "..\..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lang", "..\..\sunamo.fragments\Lang\Lang.csproj", "{693C5EAF-4F45-43A8-ACD3-2B27F9288397}"
 EndProject
@@ -28,9 +28,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAParser.Tests", "UAParser.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAParser", "..\..\sunamo.notmine\UAParser\UAParser.csproj", "{F0A3B88A-1DEB-460E-8043-B240943A6F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuTestingSupport", "FubuTestingSupport\FubuTestingSupport.csproj", "{CEF04237-F832-4BAF-BA5F-C5DEA0635E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuTestingSupport", "FubuTestingSupport\FubuTestingSupport.csproj", "{CEF04237-F832-4BAF-BA5F-C5DEA0635E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuCore", "..\..\sunamo.notmine\FubuCore\FubuCore.csproj", "{342B987C-E0A4-4129-958D-8E08084E8A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore", "..\..\sunamo.notmine\FubuCore\FubuCore.csproj", "{342B987C-E0A4-4129-958D-8E08084E8A06}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore.Testing.MSTest", "FubuCore.Testing.MSTest\FubuCore.Testing.MSTest.csproj", "{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}"
 EndProject
@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.Tests.Net45
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlnGen.Common.sunamo", "..\..\sunamo.notmine\SlnGen.Common\SlnGen.Common.sunamo.csproj", "{FCEB3DB0-6743-4EF3-985D-83AB339F4E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathEditor", "..\..\sunamoWithDep.notmine\PathEditor\PathEditor.csproj", "{EC822654-CDE4-4EE2-B033-55125CD11B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathEditor", "..\..\sunamoWithDep.notmine\PathEditor\PathEditor.csproj", "{EC822654-CDE4-4EE2-B033-55125CD11B80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

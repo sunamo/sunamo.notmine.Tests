@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCsProjFile", "..\..\sunamo.notmine\FubuCsProjFile\FubuCsProjFile.csproj", "{3D95A70E-4ED5-4C76-9F94-01004A8D493E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuCsProjFile.Tests", "FubuCsProjFile.Tests\FubuCsProjFile.Tests.csproj", "{36AD49C6-3A8C-4F37-828D-05DF3B570D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D95A70E-4ED5-4C76-9F94-01004A8D493E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D95A70E-4ED5-4C76-9F94-01004A8D493E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D95A70E-4ED5-4C76-9F94-01004A8D493E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D95A70E-4ED5-4C76-9F94-01004A8D493E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36AD49C6-3A8C-4F37-828D-05DF3B570D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AD49C6-3A8C-4F37-828D-05DF3B570D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AD49C6-3A8C-4F37-828D-05DF3B570D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AD49C6-3A8C-4F37-828D-05DF3B570D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC2BBBD6-E7BB-4C50-AE02-B38494FC1789}
+	EndGlobalSection
+EndGlobal
