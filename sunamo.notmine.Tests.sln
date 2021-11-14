@@ -34,11 +34,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore", "..\..\sunamo.no
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore.Testing.MSTest", "FubuCore.Testing.MSTest\FubuCore.Testing.MSTest.csproj", "{4160C1EF-9E6E-4D42-B572-FCA34D6433AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.Tests.Net45", "HtmlAgilityPack.Tests.Net45\HtmlAgilityPack.Tests.Net45.csproj", "{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlAgilityPack.Tests.Net45", "HtmlAgilityPack.Tests.Net45\HtmlAgilityPack.Tests.Net45.csproj", "{F7D2CBBC-E23E-478E-865B-6BE445B55EC8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlnGen.Common.sunamo", "..\..\sunamo.notmine\SlnGen.Common\SlnGen.Common.sunamo.csproj", "{FCEB3DB0-6743-4EF3-985D-83AB339F4E26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathEditor", "..\..\sunamoWithDep.notmine\PathEditor\PathEditor.csproj", "{EC822654-CDE4-4EE2-B033-55125CD11B80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCsProjFile.Tests", "FubuCsProjFile.Tests\FubuCsProjFile.Tests.csproj", "{A901D3CA-EFBD-4B68-8874-A963FF1CA051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,12 @@ Global
 		{EC822654-CDE4-4EE2-B033-55125CD11B80}.DumpAsm|Any CPU.Build.0 = Debug|Any CPU
 		{EC822654-CDE4-4EE2-B033-55125CD11B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC822654-CDE4-4EE2-B033-55125CD11B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.DumpAsm|Any CPU.ActiveCfg = Debug|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.DumpAsm|Any CPU.Build.0 = Debug|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A901D3CA-EFBD-4B68-8874-A963FF1CA051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

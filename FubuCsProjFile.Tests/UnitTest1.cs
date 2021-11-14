@@ -11,7 +11,7 @@ namespace FubuCsProjFile.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void FrameworkNameDetectorTest()
         {
             List<string> pr = Directory.GetFiles(@"d:\_Test\sunamo.notmine\FubuCsProjFile\FrameworkNameDetector\").ToList() ;
 
