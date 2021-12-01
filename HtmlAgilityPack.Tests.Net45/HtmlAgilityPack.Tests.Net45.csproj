@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\..\packages\NUnit.3.11.0\build\NUnit.props')"></Import>
   <PropertyGroup>
-   <TargetFramework>net5.0-windows</TargetFramework>
+   <TargetFramework>net48</TargetFramework>
     <RootNamespace>HtmlAgilityPack.Tests.fx._4._5</RootNamespace>
     <AssemblyName>HtmlAgilityPack.Tests.fx.4.5</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
