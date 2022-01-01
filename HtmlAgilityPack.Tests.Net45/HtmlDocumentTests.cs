@@ -916,7 +916,7 @@ namespace HtmlAgilityPack.Tests
         public void CompareLowerCulture()
         {
 
-            string html = File.ReadAllText(_contentDirectory + "regression.html");
+            string html = TF.ReadAllText(_contentDirectory + "regression.html");
             HtmlNode node1 = null;
             // Test 1
             CultureInfo cul1 = CultureInfo.CreateSpecificCulture("en-US");
@@ -945,7 +945,7 @@ namespace HtmlAgilityPack.Tests
         public void OverFlowNotEndTag()
         {
 
-            string html = File.ReadAllText(_contentDirectory + "overflow.html");
+            string html = TF.ReadAllText(_contentDirectory + "overflow.html");
             HtmlNode node1 = null;
             // Test 1
              

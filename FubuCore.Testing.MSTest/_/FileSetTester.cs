@@ -52,7 +52,7 @@ namespace FubuCore.Testing
                 File.Delete(name);
             }
 
-            File.WriteAllText(name, "");
+            TF.WriteAllText(name, "");
         }
 
         public IEnumerable<string> includedFiles()
