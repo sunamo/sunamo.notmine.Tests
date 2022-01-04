@@ -4,6 +4,7 @@ using System.IO;
 using FubuTestingSupport;
 using NUnit.Framework;
 using System.Linq;
+using SunamoExceptions;
 
 namespace FubuCore.Testing
 {

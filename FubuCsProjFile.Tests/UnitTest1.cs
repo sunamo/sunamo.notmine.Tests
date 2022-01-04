@@ -1,4 +1,5 @@
-using FubuCsProjFile.MSBuild;
+using FubuCsprojFile;
+using FubuCsprojFile.MSBuild;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,22 +9,21 @@ using Xunit;
 
 namespace FubuCsProjFile.Tests
 {
-    public class UnitTest1
+    public class FrameworkNameDetectorTests
     {
         [Fact]
-        public void FrameworkNameDetectorTest()
+        public void DetectTest()
         {
             List<string> pr = Directory.GetFiles(@"d:\_Test\sunamo.notmine\FubuCsProjFile\FrameworkNameDetector\").ToList() ;
 
             foreach (var item in pr)
             {
-                
                 var msb = MSBuildProject.LoadFrom(item);
                 var result = FrameworkNameDetector.Detect(msb);
-                Debug.WriteLine(result);
+                var t = Path.GetFileName(item) + " = " + result;
+                Debug.WriteLine(t);
+                Console.WriteLine(t);
             }
-
-
         }
     }
 }

@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj"></ProjectReference>
+    <ProjectReference Include="..\..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj" />
     <ProjectReference Include="..\FubuTestingSupport\FubuTestingSupport.csproj"></ProjectReference>
   </ItemGroup>
 </Project>
