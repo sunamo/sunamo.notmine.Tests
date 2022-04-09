@@ -90,7 +90,7 @@ namespace FubuTestingSupport
 
             if (messages.Any())
             {
-                var message = "Persistence Specification failed:\n" + messages.Join("\n");
+                var message = "Persistence Specification faileD:\n" + messages.Join("\n");
                 Assert.Fail(message);
             }
         }

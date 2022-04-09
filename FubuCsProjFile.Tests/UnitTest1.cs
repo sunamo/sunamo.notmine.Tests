@@ -1,4 +1,4 @@
-using FubuCsprojFile;
+﻿using FubuCsprojFile;
 using FubuCsprojFile.MSBuild;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace FubuCsProjFile.Tests
         [Fact]
         public void DetectTest()
         {
-            List<string> pr = Directory.GetFiles(@"d:\_Test\sunamo.notmine\FubuCsProjFile\FrameworkNameDetector\").ToList() ;
+            List<string> pr = Directory.GetFiles(@"D:\_Test\sunamo.notmine\FubuCsProjFile\FrameworkNameDetector\").ToList() ;
 
             foreach (var item in pr)
             {

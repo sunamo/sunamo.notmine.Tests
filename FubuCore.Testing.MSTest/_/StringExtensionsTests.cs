@@ -13,8 +13,8 @@ public class StringExtensionsTests
     [TestMethod]
     public void PathRelativeToTest()
     {
-        var a1 = @"e:\Documents\vs\Projects\sunamo\sunamo\sunamo.csproj";
-        var a2 = @"e:\Documents\vs\Projects\EverythingClient";
+        var a1 = @"E:\Documents\vs\Projects\sunamo\sunamo\sunamo.csproj";
+        var a2 = @"E:\Documents\vs\Projects\EverythingClient";
 
         var result = a1.PathRelativeTo(a2);
         Debugger.Break();

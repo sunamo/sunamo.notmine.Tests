@@ -69,7 +69,7 @@ namespace FubuCore.Testing
         [Test]
         public void get_relative_path_should_not_be_case_sensitive()
         {
-            @"c:\build\posh-tf".PathRelativeTo(@"c:\Build\scripts")
+            @"C:\build\posh-tf".PathRelativeTo(@"C:\Build\scripts")
                 .ShouldEqual(@"..\posh-tf");
         }
 
