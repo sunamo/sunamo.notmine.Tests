@@ -57,11 +57,11 @@ namespace FubuCore.Testing.Configuration
         public void read_complex_escaped_value()
         {
             var data = new SettingsData(SettingCategory.core);
-            data.Read("DatabaseSettings.ConnectionString=\"Data Source=localhost;Initial Catalog=DovetailDAI;User Id=sa;Password=sa;\"");
+            data.Read("DatabaseSettings.ConnectionString=\"Data Source=sunamo.net;Initial Catalog=DovetailDAI;User Id=sa;Password=sa;\"");
 
             data.AllKeys.ShouldHaveTheSameElementsAs("DatabaseSettings.ConnectionString");
 
-            data["DatabaseSettings.ConnectionString"].ShouldEqual("Data Source=localhost;Initial Catalog=DovetailDAI;User Id=sa;Password=sa;");
+            data["DatabaseSettings.ConnectionString"].ShouldEqual("Data Source=sunamo.net;Initial Catalog=DovetailDAI;User Id=sa;Password=sa;");
         }
 
 

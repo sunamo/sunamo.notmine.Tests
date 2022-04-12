@@ -30,11 +30,11 @@ namespace FubuCore.Testing.Configuration
   <add key='DatabaseSettings.UseOuterJoin' value='True' />
   <add key='DatabaseSettings.GenerateStatistics' value='true'/>
 
-  <add key='EmailEngineSettings.AdministratorEmail' value='something@localhost.fcs.local'/>
+  <add key='EmailEngineSettings.AdministratorEmail' value='something@sunamo.net.fcs.local'/>
   <add key='EmailEngineSettings.PollingFrequency' value='15'/>
   
   <add key='EmailSettings.IncomingEmailCaseIdentifierPattern' value='About(\s*Case)?\s*(?&lt;Identifier>[\d\-]+)'/>
-  <add key='EmailSettings.LogEmailReplyToAddress' value='support@localhost.fcs.local'/>
+  <add key='EmailSettings.LogEmailReplyToAddress' value='support@sunamo.net.fcs.local'/>
   <add key='EmailSettings.OutgoingDefaultFromEmail' value='changeme@fcs.local'/>
   <add key='EmailSettings.OutgoingEmailSubjectPrefix' value='About Case'/>
   <add key='EmailSettings.SmtpEnableSsl' value='false'/>
@@ -58,12 +58,12 @@ namespace FubuCore.Testing.Configuration
  
   <add key='WebsiteSettings.MaxNotificationDisplayCount' value='10'/>  
 
-  <add key='WebsiteSettings.PublicReportFrameUrlBase' value='http://localhost/DovetailCRM.Reports/reportlist.aspx' />
-  <add key='WebsiteSettings.PublicReportListUrl' value='http://localhost/DovetailCRM.Reports/reports.axd'/>
-  <add key='WebsiteSettings.PublicReportWidgetUrlBase' value='http://localhost/DovetailCRM.Reports/DashboardReportViewer.aspx'/>
+  <add key='WebsiteSettings.PublicReportFrameUrlBase' value='http://sunamo.net/DovetailCRM.Reports/reportlist.aspx' />
+  <add key='WebsiteSettings.PublicReportListUrl' value='http://sunamo.net/DovetailCRM.Reports/reports.axd'/>
+  <add key='WebsiteSettings.PublicReportWidgetUrlBase' value='http://sunamo.net/DovetailCRM.Reports/DashboardReportViewer.aspx'/>
 
-  <add key='WebsiteSettings.PublicMobileUrlBase' value='http://localhost/mobile' />
-  <add key='WebsiteSettings.PublicUrlBase' value='http://localhost/DovetailCRM/' />
+  <add key='WebsiteSettings.PublicMobileUrlBase' value='http://sunamo.net/mobile' />
+  <add key='WebsiteSettings.PublicUrlBase' value='http://sunamo.net/DovetailCRM/' />
   <add key='WebsiteSettings.DiagnosticsEnabled' value='true' />
   <add key='WebsiteSettings.CustomViewPath' value='Overrides' />
   <add key='WebsiteSettings.AnonymousAccessFileExtensions' value='gif, png, jpg, css, js, htm, html' />
