@@ -15,7 +15,7 @@
     <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj"></ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NUnit" Version="3.13.0"></PackageReference>
+    <PackageReference Include="NUnit" Version="3.13.3"></PackageReference>
     <PackageReference Include="NUnit.Mocks" Version="2.6.4"></PackageReference>
     <PackageReference Include="pNUnit" Version="2.6.4"></PackageReference>
     <PackageReference Include="RhinoMocks" Version="3.6.1"></PackageReference>
