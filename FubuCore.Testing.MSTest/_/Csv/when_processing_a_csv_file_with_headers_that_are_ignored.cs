@@ -26,7 +26,7 @@ namespace FubuCore.Testing.Csv
             var t1 = new TestCsvObject {Name = "test1", Count = 1, Flag = true};
             var t2 = new TestCsvObject { Name = "test2", Count = 2, Flag = false };
 
-            theResultsAre(t1, t2);
+            theResultsAre(t.Item1, t.Item2);
         }
     }
 }
