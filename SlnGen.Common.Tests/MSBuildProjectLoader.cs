@@ -10,7 +10,7 @@ namespace SlnGen.Common.Tests
         public void LoadProjectReferencesTest()
         {
             MSBuildProjectLoader m = new MSBuildProjectLoader(BuildEngine.Create());
-            var p = new string [] { @"E:\Documents\vs\Projects\sunamo\shared\shared.csproj" };
+            var p = new string [] { @"E:\vs\Projects\sunamo\shared\shared.csproj" };
             var pc = m.LoadProjectsAndReferences(p);
             int i = 0;
         }
