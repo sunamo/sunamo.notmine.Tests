@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using FubuTestingSupport;
 using System.Threading;
 using System.IO;

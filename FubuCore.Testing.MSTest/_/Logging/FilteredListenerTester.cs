@@ -1,4 +1,4 @@
-﻿using FubuCore.Logging;
+using FubuCore.Logging;
 using NUnit.Framework;
 using FubuTestingSupport;
 

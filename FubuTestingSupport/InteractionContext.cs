@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FubuCore;
 using FubuCore.Dates;
 using FubuCore.Logging;

@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using FubuCore.Binding.Values;
 using FubuCore.Configuration;
 using FubuTestingSupport;

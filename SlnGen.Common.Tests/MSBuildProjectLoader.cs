@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.Build.Utilities.ProjectCreation;
 using Xunit;
 

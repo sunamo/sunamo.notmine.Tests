@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FubuTestingSupport;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;

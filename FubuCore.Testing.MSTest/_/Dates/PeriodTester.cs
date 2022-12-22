@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FubuCore.Dates;
 using FubuTestingSupport;
 using NUnit.Framework;

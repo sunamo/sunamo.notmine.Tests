@@ -1,4 +1,4 @@
-﻿using FubuCore.Binding.Values;
+using FubuCore.Binding.Values;
 using FubuCore.Configuration;
 using FubuTestingSupport;
 using NUnit.Framework;

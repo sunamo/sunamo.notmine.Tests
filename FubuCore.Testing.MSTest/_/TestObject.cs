@@ -1,4 +1,4 @@
-﻿namespace FubuCore.Testing
+namespace FubuCore.Testing
 {
     public class TestObject
     {

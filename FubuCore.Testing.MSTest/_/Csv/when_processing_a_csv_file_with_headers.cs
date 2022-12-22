@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using FubuCore.Csv;
 using NUnit.Framework;
 

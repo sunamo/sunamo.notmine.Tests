@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Web;
 using FubuCore.Binding;
 using FubuCore.Binding.InMemory;

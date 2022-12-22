@@ -1,4 +1,4 @@
-﻿using FubuCore.CommandLine;
+using FubuCore.CommandLine;
 using NUnit.Framework;
 using Rhino.Mocks;
 

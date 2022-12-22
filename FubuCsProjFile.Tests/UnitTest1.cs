@@ -1,4 +1,4 @@
-﻿using FubuCsprojFile;
+using FubuCsprojFile;
 using FubuCsprojFile.MSBuild;
 using System;
 using System.Collections.Generic;

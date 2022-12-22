@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using FubuCore.CommandLine;
 using FubuTestingSupport;

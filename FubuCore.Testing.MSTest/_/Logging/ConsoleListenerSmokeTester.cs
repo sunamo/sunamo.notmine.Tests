@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FubuCore.Logging;
 using NUnit.Framework;
 

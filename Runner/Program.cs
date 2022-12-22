@@ -1,4 +1,4 @@
-﻿using FubuCsProjFile.Tests;
+using FubuCsProjFile.Tests;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using FubuCore.Binding.Values;
 using FubuCore.Configuration;
 using NUnit.Framework;
