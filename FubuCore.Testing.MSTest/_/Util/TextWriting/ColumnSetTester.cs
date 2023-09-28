@@ -1,9 +1,3 @@
-using System;
-using FubuCore.Util.TextWriting;
-using NUnit.Framework;
-using System.Linq;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.Util.TextWriting
 {
     [TestFixture]

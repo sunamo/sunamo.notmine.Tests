@@ -1,6 +1,3 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Xml.XPath;
-
 namespace XliffParser.Tests
 {
     [TestClass]

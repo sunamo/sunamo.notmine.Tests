@@ -1,9 +1,3 @@
-using System;
-using FubuCore.Reflection.Expressions;
-using FubuCore.Testing.Conversion;
-using FubuTestingSupport;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.Reflection.Expressions
 {
     public class Case

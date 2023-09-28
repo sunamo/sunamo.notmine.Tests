@@ -1,11 +1,3 @@
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using FubuTestingSupport;
-using NUnit.Framework;
-using System;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing
 {
     [TestFixture]

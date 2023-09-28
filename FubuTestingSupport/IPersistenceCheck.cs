@@ -1,5 +1,3 @@
-using System;
-
 namespace FubuTestingSupport
 {
     public interface IPersistenceCheck

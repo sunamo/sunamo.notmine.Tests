@@ -1,8 +1,3 @@
-using System;
-using System.Diagnostics;
-using System.Text;
-using Xunit;
-
 namespace UAParser.Tests
 {
     public class ParserTests

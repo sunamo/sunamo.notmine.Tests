@@ -1,12 +1,3 @@
-using System;
-using FubuCore;
-using FubuCore.Dates;
-using FubuCore.Logging;
-using NUnit.Framework;
-using Rhino.Mocks;
-using StructureMap;
-using StructureMap.AutoMocking;
-
 namespace FubuTestingSupport
 {
     public class InteractionContext<T> where T : class

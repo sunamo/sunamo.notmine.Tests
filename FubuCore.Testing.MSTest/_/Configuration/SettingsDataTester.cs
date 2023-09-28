@@ -1,9 +1,3 @@
-using System;
-using FubuCore.Binding.Values;
-using FubuCore.Configuration;
-using NUnit.Framework;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.Configuration
 {
     [TestFixture]

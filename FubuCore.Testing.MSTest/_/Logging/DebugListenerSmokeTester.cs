@@ -1,7 +1,3 @@
-using System;
-using FubuCore.Logging;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.Logging
 {
     [TestFixture]

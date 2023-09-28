@@ -1,12 +1,3 @@
-using FubuCsprojFile;
-using FubuCsprojFile.MSBuild;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using Xunit;
-
 namespace FubuCsProjFile.Tests
 {
     public class FrameworkNameDetectorTests

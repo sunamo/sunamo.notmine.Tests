@@ -1,8 +1,3 @@
-using FubuCore.Binding;
-using NUnit.Framework;
-using System.Linq;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.Binding
 {
     [TestFixture]

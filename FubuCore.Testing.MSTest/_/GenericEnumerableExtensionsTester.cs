@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using FubuTestingSupport;
-using NUnit.Framework;
-using StructureMap.Pipeline;
-
 namespace FubuCore.Testing
 {
     [TestFixture]

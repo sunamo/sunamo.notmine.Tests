@@ -1,9 +1,3 @@
-using System;
-using System.Linq;
-using FubuCore.DependencyAnalysis;
-using NUnit.Framework;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.DependencyAnalysis
 {
     [TestFixture]

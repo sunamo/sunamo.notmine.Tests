@@ -1,8 +1,3 @@
-using System;
-using FubuTestingSupport;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
-
 namespace FubuCore.Testing
 {
     [TestFixture]

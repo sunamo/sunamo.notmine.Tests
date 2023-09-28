@@ -1,8 +1,3 @@
-using System.Linq;
-using FubuCore.Binding.Values;
-using FubuCore.Configuration;
-using FubuTestingSupport;
-using NUnit.Framework;
 using SpecificationExtensions = FubuTestingSupport.SpecificationExtensions;
 
 namespace FubuCore.Testing.Configuration

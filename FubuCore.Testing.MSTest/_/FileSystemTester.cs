@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using FubuTestingSupport;
-using NUnit.Framework;
-using System.Linq;
-
 namespace FubuCore.Testing
 {
     [TestFixture]

@@ -1,10 +1,3 @@
-using System;
-using FubuCore.Binding;
-using FubuCore.Conversion;
-using FubuTestingSupport;
-using NUnit.Framework;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.Binding
 {
     public class Model{}

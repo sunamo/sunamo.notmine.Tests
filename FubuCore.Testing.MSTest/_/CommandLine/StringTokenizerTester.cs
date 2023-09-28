@@ -1,10 +1,3 @@
-using System.Diagnostics;
-using FubuCore.CommandLine;
-using FubuTestingSupport;
-using NUnit.Framework;
-using System.Linq;
-using System.Collections.Generic;
-
 namespace FubuCore.Testing.CommandLine
 {
     [TestFixture]

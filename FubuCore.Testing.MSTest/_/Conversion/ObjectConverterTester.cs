@@ -1,13 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Linq;
-using System.Threading;
-using FubuCore.Conversion;
-using FubuCore.Testing.Formatting;
-using FubuTestingSupport;
-using NUnit.Framework;
 using Address = FubuCore.Testing.Formatting.Address;
 
 namespace FubuCore.Testing.Conversion

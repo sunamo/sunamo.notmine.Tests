@@ -1,8 +1,3 @@
-using System.Collections.Generic;
-using FubuCore.Csv;
-using FubuTestingSupport;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.Csv
 {
     [TestFixture]

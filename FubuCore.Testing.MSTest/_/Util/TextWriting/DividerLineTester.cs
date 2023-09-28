@@ -1,9 +1,3 @@
-using System;
-using System.IO;
-using FubuCore.Util.TextWriting;
-using NUnit.Framework;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.Util.TextWriting
 {
     [TestFixture]

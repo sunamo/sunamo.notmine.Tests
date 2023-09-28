@@ -1,9 +1,3 @@
-using System.Collections.Generic;
-using FubuCore.Binding.Values;
-using FubuCore.Configuration;
-using NUnit.Framework;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.Binding.Values
 {
     [TestFixture]

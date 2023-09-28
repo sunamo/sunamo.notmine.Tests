@@ -1,9 +1,3 @@
-using System;
-using FubuCore.Configuration;
-using NUnit.Framework;
-using FubuTestingSupport;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.Configuration
 {
     [TestFixture]

@@ -1,6 +1,3 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
 namespace Metaproject.PackageIndex.Functions.ParseCsprojFile.Tests
 {
     [TestClass]

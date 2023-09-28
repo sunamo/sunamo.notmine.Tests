@@ -1,8 +1,3 @@
-using System;
-using FubuCore.CommandLine;
-using FubuTestingSupport;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.CommandLine
 {
     public class ActivatorCommandCreatorTests

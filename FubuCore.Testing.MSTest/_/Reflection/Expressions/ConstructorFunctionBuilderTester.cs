@@ -1,10 +1,3 @@
-using System;
-using FubuCore.Reflection.Expressions;
-using FubuCore.Util;
-using FubuTestingSupport;
-using NUnit.Framework;
-using System.Linq;
-
 namespace FubuCore.Testing.Reflection.Expressions
 {
     public class StubArguments : IArguments

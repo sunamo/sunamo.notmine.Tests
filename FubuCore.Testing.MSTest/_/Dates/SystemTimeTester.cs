@@ -1,10 +1,3 @@
-using System;
-using FubuCore.Dates;
-using NUnit.Framework;
-using FubuTestingSupport;
-using FubuCore;
-using System.Collections.Generic;
-
 namespace FubuCore.Testing.Dates
 {
     [TestFixture]

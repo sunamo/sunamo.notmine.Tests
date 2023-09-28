@@ -1,11 +1,4 @@
-using System;
-using System.Collections.Generic;
-using FubuCore.CommandLine;
-using FubuTestingSupport;
-using NUnit.Framework;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
-using System.Linq;
-using FubuCore.Reflection;
 
 namespace FubuCore.Testing.CommandLine
 {

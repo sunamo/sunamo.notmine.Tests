@@ -1,7 +1,3 @@
-using System;
-using Microsoft.Build.Utilities.ProjectCreation;
-using Xunit;
-
 namespace SlnGen.Common.Tests
 {
     public class MSBuildProjectLoaderTests

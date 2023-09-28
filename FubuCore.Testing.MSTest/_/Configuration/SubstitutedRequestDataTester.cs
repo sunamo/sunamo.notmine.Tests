@@ -1,11 +1,3 @@
-using System;
-using System.Collections.Generic;
-using FubuCore.Binding;
-using FubuCore.Configuration;
-using FubuCore.Util;
-using NUnit.Framework;
-using FubuTestingSupport;
-using Rhino.Mocks;
 using Is = Rhino.Mocks.Constraints.Is;
 
 namespace FubuCore.Testing.Configuration

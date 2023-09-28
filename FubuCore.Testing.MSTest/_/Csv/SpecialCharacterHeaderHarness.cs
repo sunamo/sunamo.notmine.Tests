@@ -1,9 +1,3 @@
-using System;
-using System.IO;
-using FubuCore.Csv;
-using FubuCore.Reflection;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.Csv
 {
     [TestFixture]

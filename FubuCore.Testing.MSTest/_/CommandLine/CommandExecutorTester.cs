@@ -1,7 +1,3 @@
-using FubuCore.CommandLine;
-using NUnit.Framework;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.CommandLine
 {
     [TestFixture]

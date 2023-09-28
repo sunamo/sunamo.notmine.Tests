@@ -1,8 +1,3 @@
-using System;
-using FubuCore.Conversion;
-using NUnit.Framework;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.Conversion
 {
     [TestFixture]

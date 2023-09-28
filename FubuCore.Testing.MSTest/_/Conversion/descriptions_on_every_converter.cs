@@ -1,12 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using FubuCore.Conversion;
-using FubuCore.Descriptions;
-using NUnit.Framework;
-using System.Linq;
-using FubuTestingSupport;
-
 namespace FubuCore.Testing.Conversion
 {
     [TestFixture]

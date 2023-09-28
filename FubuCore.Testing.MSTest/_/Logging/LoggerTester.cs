@@ -1,13 +1,3 @@
-using System;
-using System.Collections.Generic;
-using FubuCore.Dates;
-using FubuCore.Logging;
-using FubuCore.Util;
-using NUnit.Framework;
-using FubuTestingSupport;
-using System.Linq;
-using Rhino.Mocks;
-
 namespace FubuCore.Testing.Logging
 {
     [TestFixture]

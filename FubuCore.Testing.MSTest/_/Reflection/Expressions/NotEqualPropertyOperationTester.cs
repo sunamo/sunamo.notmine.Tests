@@ -1,8 +1,3 @@
-using System;
-using FubuCore.Reflection.Expressions;
-using FubuTestingSupport;
-using NUnit.Framework;
-
 namespace FubuCore.Testing.Reflection.Expressions
 {
     public class NotEqualPropertyOperationTester {}

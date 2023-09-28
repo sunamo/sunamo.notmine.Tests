@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using FubuCore;
-using FubuCore.Util;
-using Rhino.Mocks;
-
 namespace FubuTestingSupport
 {
     public class SelfMockingServiceLocator : IServiceLocator
