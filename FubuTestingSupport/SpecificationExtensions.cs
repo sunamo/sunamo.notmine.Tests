@@ -28,15 +28,6 @@ namespace FubuTestingSupport
 
     public static class SpecificationExtensions
     {
-        public static T ShouldTransferViaSerialization<T>(this T instance)
-        {
-            var stream = new MemoryStream();
-            new BinaryFormatter().Serialize(stream, instance);
-            stream.Position = 0;
-
-            return new BinaryFormatter().Deserialize(stream).ShouldBeOfType<T>();
-        }
-
         public static void ShouldHave<T>(this IEnumerable<T> values, Func<T, bool> func)
         {
             values.FirstOrDefault(func).ShouldNotBeNull();

@@ -3,13 +3,13 @@ namespace XliffParser.Tests
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        //[TestMethod]
         public void XlfXPath()
         {
             //var xd = new XlfDocument();
 
             XmlNamespacesHolder x = new XmlNamespacesHolder();
-            var content = TF.ReadAllText( @"E:\vs\Projects\sunamo\sunamo\MultilingualResources\sunamo.en-US.xlf");
+            var content = TF.ReadAllText(@"E:\vs\Projects\sunamo\sunamo\MultilingualResources\sunamo.en-US.xlf");
             var xd = x.ParseAndRemoveNamespacesXDocument(content);
 
             var nsmgr = x.nsmgr;

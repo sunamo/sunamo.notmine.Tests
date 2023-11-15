@@ -5,7 +5,9 @@ namespace Runner
         static void Main(string[] args)
         {
             FrameworkNameDetectorTests t = new FrameworkNameDetectorTests();
-            t.DetectTest();
+            //t.DetectTest();
+
+
 
             Console.ReadLine();
         }
