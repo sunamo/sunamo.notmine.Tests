@@ -6,7 +6,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XliffParser.Tests", "XliffP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoExceptions", "..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{F3F6F3CA-A5F5-4994-9666-3FED63614B8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo", "..\..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo", "..\..\sunamo\SunamoShared\SunamoShared.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xlf", "..\..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
 EndProject
@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuTestingSupport", "FubuT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCore", "..\..\sunamo.notmine\FubuCore\FubuCore.csproj", "{342B987C-E0A4-4129-958D-8E08084E8A06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlnGen.Common.sunamo", "..\..\sunamo.notmine\SlnGen.Common\SlnGen.Common.sunamo.csproj", "{FCEB3DB0-6743-4EF3-985D-83AB339F4E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlnGen.Common.sunamo", "..\..\sunamo.notmine\SlnGen.Common\SlnGen.Common.SunamoShared.csproj", "{FCEB3DB0-6743-4EF3-985D-83AB339F4E26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FubuCsProjFile.Tests", "FubuCsProjFile.Tests\FubuCsProjFile.Tests.csproj", "{A901D3CA-EFBD-4B68-8874-A963FF1CA051}"
 EndProject

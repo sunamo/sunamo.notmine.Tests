@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace FubuCsProjFile.Tests
 {
     public class FrameworkNameDetectorTests

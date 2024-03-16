@@ -3,7 +3,7 @@ namespace SunamoBitLocker.Tests
     [TestClass]
     public class BitLockerHelperTests
     {
-        const string f = @"E:\_Test\sunamoWithoutDep\SunamoBitLocker\a.txt";
+        const string f = @"E:\_Test\sunamoWithoutLocalDep\SunamoBitLocker\a.txt";
         const string ab = "ab";
 
         [TestMethod]

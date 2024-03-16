@@ -9,7 +9,7 @@ namespace XliffParser.Tests
             //var xd = new XlfDocument();
 
             XmlNamespacesHolder x = new XmlNamespacesHolder();
-            var content = TF.ReadAllText(@"E:\vs\Projects\sunamo\sunamo\MultilingualResources\sunamo.en-US.xlf");
+            var content = TF.ReadAllText(@"E:\vs\Projects\sunamoWithoutLocalDep\sunamo\MultilingualResources\sunamo.en-US.xlf");
             var xd = x.ParseAndRemoveNamespacesXDocument(content);
 
             var nsmgr = x.nsmgr;
