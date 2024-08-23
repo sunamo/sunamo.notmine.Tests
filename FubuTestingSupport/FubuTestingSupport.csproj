@@ -1,30 +1,38 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\packages\NUnit.3.13.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.0\build\NUnit.props')"></Import>
+  <Import Project="..\packages\NUnit.3.13.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.0\build\NUnit.props')">
+  </Import>
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DefineConstants>DEBUG2;DEBUG;TRACE;ASYNC</DefineConstants>
+    <DefineConstants>DEBUG2;DEBUG;TRACE;ASYNC;FubuTestingSupport;FubuTestingSupport.csproj</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Properties\"></Folder>
+    <Folder Include="Properties\">
+    </Folder>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj"></ProjectReference>
+    <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj">
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NUnit" Version="3.13.3"></PackageReference>
-    <PackageReference Include="NUnit.Mocks" Version="2.6.4"></PackageReference>
-    <PackageReference Include="pNUnit" Version="2.6.4"></PackageReference>
-    <PackageReference Include="RhinoMocks" Version="3.6.1"></PackageReference>
-    <PackageReference Include="structuremap.automocking" Version="4.0.0.315"></PackageReference>
+    <PackageReference Include="NUnit" Version="3.13.3">
+    </PackageReference>
+    <PackageReference Include="NUnit.Mocks" Version="2.6.4">
+    </PackageReference>
+    <PackageReference Include="pNUnit" Version="2.6.4">
+    </PackageReference>
+    <PackageReference Include="RhinoMocks" Version="3.6.1">
+    </PackageReference>
+    <PackageReference Include="structuremap.automocking" Version="4.0.0.315">
+    </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;FubuTestingSupport;FubuTestingSupport.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;FubuTestingSupport;FubuTestingSupport.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

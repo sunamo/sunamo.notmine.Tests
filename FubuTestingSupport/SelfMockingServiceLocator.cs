@@ -1,5 +1,5 @@
 namespace FubuTestingSupport
-{
+
     public class SelfMockingServiceLocator : IServiceLocator
     {
         private readonly Cache<Type, object> _mocks = new Cache<Type, object>(t =>

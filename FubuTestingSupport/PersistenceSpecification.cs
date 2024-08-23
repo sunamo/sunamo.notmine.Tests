@@ -1,5 +1,5 @@
 namespace FubuTestingSupport
-{
+
     public interface IPersistenceSpecification<T>
     {
         T Original { get; set; }

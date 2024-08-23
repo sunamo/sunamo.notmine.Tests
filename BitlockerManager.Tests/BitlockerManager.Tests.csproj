@@ -13,15 +13,15 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\sunamoWithoutLocalDep\SunamoBitLocker\SunamoBitLocker.csproj" />
+    <ProjectReference Include="..\..\..\..\PlatformIndependentNuGetPackages\SunamoBitLocker\SunamoBitLocker.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;BitlockerManager.Tests;BitlockerManager.Tests.csproj</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;BitlockerManager.Tests;BitlockerManager.Tests.csproj</DefineConstants>
   </PropertyGroup>
 </Project>

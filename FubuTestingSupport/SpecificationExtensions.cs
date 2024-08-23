@@ -1,7 +1,7 @@
 using Is = NUnit.Framework.Is;
 
 namespace FubuTestingSupport
-{
+
     public static class Exception<T> where T : Exception
     {
         public static T ShouldBeThrownBy(Action action)

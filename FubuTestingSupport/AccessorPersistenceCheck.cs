@@ -1,5 +1,5 @@
 namespace FubuTestingSupport
-{
+
     public class AccessorPersistenceCheck : IPersistenceCheck
     {
         private readonly Accessor _accessor;

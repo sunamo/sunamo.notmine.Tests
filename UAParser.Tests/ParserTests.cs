@@ -1,5 +1,5 @@
 namespace UAParser.Tests
-{
+
     public class ParserTests
     {
         [Fact]
