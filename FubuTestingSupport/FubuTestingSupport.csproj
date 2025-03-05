@@ -11,6 +11,7 @@
   <ItemGroup>
     <Folder Include="Properties\">
     </Folder>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\sunamo.notmine\FubuCore\FubuCore.csproj">
