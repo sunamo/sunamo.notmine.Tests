@@ -1,0 +1,29 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="DumpAsm" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="../../CredentialsWithoutDep/WinSec/WinSec.csproj" />
+  <Project Path="../../sunamo.notmine/fmdev.ResX/fmdev.ResX.csproj" />
+  <Project Path="../../sunamo.notmine/FubuCore/FubuCore.csproj" />
+  <Project Path="../../sunamo.notmine/FubuCsProjFile/FubuCsProjFile.csproj" />
+  <Project Path="../../sunamo.notmine/Metaproject.PackageIndex.Functions.ParseCsprojFile/Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj" />
+  <Project Path="../../sunamo.notmine/Metaproject.PackageIndex.Structures.PackageProject/Metaproject.PackageIndex.Structures.PackageProject.csproj" />
+  <Project Path="../../sunamo.notmine/SlnGen.Common/SlnGen.Common.SunamoShared.csproj" />
+  <Project Path="../../sunamo.notmine/UAParser/UAParser.csproj" />
+  <Project Path="../../sunamo.notmine/XliffParser/XliffParser.csproj" />
+  <Project Path="../../sunamo/duo/duo.csproj" />
+  <Project Path="../../sunamo/Resources/Resources.csproj" />
+  <Project Path="../../sunamo/shared/shared.csproj" />
+  <Project Path="../../sunamo/SunamoShared/SunamoShared.csproj" />
+  <Project Path="../../sunamo/Xlf/Xlf.csproj" />
+  <Project Path="../../sunamoWithoutDep/SunamoExceptions/SunamoExceptions.csproj" />
+  <Project Path="FubuCsProjFile.Tests/FubuCsProjFile.Tests.csproj" />
+  <Project Path="FubuTestingSupport/FubuTestingSupport.csproj" />
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFile.Tests/Metaproject.PackageIndex.Functions.ParseCsprojFile.Tests.csproj" />
+  <Project Path="Runner/Runner.csproj" />
+  <Project Path="SlnGen.Common.Tests/SlnGen.Common.Tests.csproj" />
+  <Project Path="UAParser.Tests/UAParser.Tests.csproj" />
+  <Project Path="XliffParser.Tests/XliffParser.Tests.csproj" />
+</Solution>
