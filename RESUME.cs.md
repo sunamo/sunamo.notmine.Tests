@@ -1,7 +1,10 @@
 ---
-schema_version: 10
+schema_version: 11
 type: tests
+category_override: none
 file_count: 24
+file_extensions: cs:27, csproj:8, config:5, noext:3, old:3, bigram_freqs:2, bigrams:2, jsonanddelete:2, md:2, numbers:2, punc:2, slnx:2, tif:2, training_text:2, unicharambigs:2, unigram_freqs:2, wordlist:2, txt:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 51
 total_lines: 974
 metrics_lm: 2026-10-04 16:02:36
