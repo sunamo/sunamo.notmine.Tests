@@ -21,7 +21,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamo.notmine.unknownoriginal\UAParser\UAParser.csproj">
+    <ProjectReference Include="..\sunamo.notmine.unknownoriginal\UAParser\UAParser.csproj">
     </ProjectReference>
     <PackageReference Include="SunamoShared" Version="*" />
   </ItemGroup>
