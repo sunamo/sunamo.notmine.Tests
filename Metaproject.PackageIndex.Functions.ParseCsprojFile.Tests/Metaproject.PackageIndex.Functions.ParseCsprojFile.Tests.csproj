@@ -16,8 +16,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamo.notmine\Metaproject.PackageIndex.Functions.ParseCsprojFile\Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj" />
-    <ProjectReference Include="..\..\..\sunamo.notmine\Metaproject.PackageIndex.Structures.PackageProject\Metaproject.PackageIndex.Structures.PackageProject.csproj" />
+    <ProjectReference Include="..\sunamo.notmine.unknownoriginal\Metaproject.PackageIndex.Functions.ParseCsprojFile\Metaproject.PackageIndex.Functions.ParseCsprojFile.csproj" />
+    <ProjectReference Include="..\sunamo.notmine.unknownoriginal\Metaproject.PackageIndex.Structures.PackageProject\Metaproject.PackageIndex.Structures.PackageProject.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="_.txt" />

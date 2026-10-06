@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Dates.Tests/Dates.Tests.csproj" />
+  <Project Path="FubuCsProjFile.Tests/FubuCsProjFile.Tests.csproj" />
+  <Project Path="FubuTestingSupport/FubuTestingSupport.csproj" />
+  <Project Path="Metaproject.PackageIndex.Functions.ParseCsprojFile.Tests/Metaproject.PackageIndex.Functions.ParseCsprojFile.Tests.csproj" />
+  <Project Path="Runner/Runner.csproj" />
+  <Project Path="SlnGen.Common.Tests/SlnGen.Common.Tests.csproj" />
+  <Project Path="Tesseract.Tests/Tesseract.Tests.csproj" />
+  <Project Path="UAParser.Tests/UAParser.Tests.csproj" />
+</Solution>

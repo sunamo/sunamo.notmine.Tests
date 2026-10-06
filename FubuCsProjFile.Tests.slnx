@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="../../sunamo.notmine/FubuCsProjFile/FubuCsProjFile.csproj" />
   <Project Path="FubuCsProjFile.Tests/FubuCsProjFile.Tests.csproj" />
 </Solution>
